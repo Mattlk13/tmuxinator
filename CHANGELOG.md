@@ -1,7 +1,24 @@
-## Unreleased
+## 3.1.0
+### tmux
+- add tmux 3.2a to Travis test matrix; add 3.2a to supported tmux versions list
 ### Misc
+- add support for local project configs using the .yaml extension
+
+## 3.0.0
+### Misc
+- Deprecate Ruby 2.5; bump min Ruby version in gemspec; bump Ruby versions in Travis test matrix
+- Fix config file parsing error: wrong number of arguments (given 4, expected 1) (#819)
+
+## 2.0.3
+### Misc
+- Add Ruby 3 to the Travis test matrix
+- add support for tmux 3.2
+
+## 2.0.2
+### Misc
+- add tmux 3.1c to Travis CI test matrix
 - add Ruby support link and RVM/rbenv links to README (#707)
-- add tmux 3.1b to travis test matrix
+- add tmux 3.1b to Travis CI test matrix
 - document support for unnamed windows in README (#773)
 
 ## 2.0.1
